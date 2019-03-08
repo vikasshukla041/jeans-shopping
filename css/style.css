@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+.side-nav {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+.side-nav .logo p {
+    font-size: 30px;
+}
+.side-nav .side-navigation li {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 2.5;
+}
+.side-nav .dropdown-nav a {
+    color: black;
+    text-decoration: none;
+}
+.side-nav .dropdown-nav .dropdown-menu {
+    width: 50px;
+}
+.main-content {
+    padding-left: 150px;
+}
+.main-content .content-header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-name p{
+    font-size: 30px;
+}
+.main-content .center-part img {
+    width: 100%;
+    position: relative;
+}
+.main-content .center-part .text-over-image {
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    width: 30%;
+}
+.text-over-image p {
+    font-size: 50px;
+}
+.text-over-image .text-btn {
+    background: black;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.how-much {
+    font-size: 20px;
+}
+.items {
+    display: flex;
+}
+.items .items-one {
+    margin-left: 10px;
+}
+.items .items-one img {
+    width: 100%;
+    margin-right: 10px;
+}
+.custom-jumbotron {
+    background: black;
+    color: white;
+    padding: 30px 20px;
+    margin: 0;
+}
+.custom-jumbotron .extra-big {
+    font-size: 35px;
+}
+.custom-jumbotron .enter {
+    color: white;
+    font-size: 18px;
+}
+.custom-jumbotron-two .contact-input p:nth-child(1) {
+    font-size: 22px;
+}
+.custom-jumbotron-two .contact-input .txt {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.custom-jumbotron-two .contact-about {
+    padding: 0 89px;
+    text-align: center;
+}
+.custom-jumbotron-two .contact-about a {
+    color: black;
+    text-decoration: underline;
+    line-height: 2;
+    font-weight: 100;
+    font-size: smaller;
+}
+.custom-jumbotron-two .contact-about p {
+    font-size: 22px;
+}
+.custom-jumbotron-two .store-about .store-heading  {
+    font-size: 22px;
+}
+.custom-jumbotron-two .store-about {
+    padding-left: 15%;
+}
+.custom-jumbotron-two .store-about p:not(.store-heading) {
+    font-size: smaller;
+    line-height: 2.5;
+}
+.footer {
+    width: 100%;
+    background: black;
+    color: white;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
